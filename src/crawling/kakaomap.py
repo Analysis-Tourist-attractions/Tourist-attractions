@@ -1,4 +1,4 @@
-# 기본 실행 준비
+# 실행 준비
 
 # 1. 셀레니움
 from selenium import webdriver
