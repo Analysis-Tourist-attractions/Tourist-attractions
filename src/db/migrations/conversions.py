@@ -1,4 +1,4 @@
-import utils
+from utils import *
 from __init__ import *
 
 mydb = utils.get_mysql_connection(host, user, password, database)
