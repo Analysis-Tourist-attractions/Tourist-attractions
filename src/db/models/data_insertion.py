@@ -3,8 +3,8 @@ from utils import *
 
 
 def insert_crawl(sitename):
-    for filename in sorted(os.listdir(f"src/db/크롤링-데이터/{sitename}")):
-        file_path = os.path.join(f"src/db/크롤링-데이터/{sitename}", filename)
+    for filename in sorted(os.listdir(f"data/크롤링데이터/{sitename}")):
+        file_path = os.path.join(f"data/크롤링데이터/{sitename}", filename)
         file_path = file_path.replace("\\", "/")
 
         # 파일명에서 Local 추출
@@ -29,10 +29,10 @@ def insert_crawl(sitename):
 
 def insert_visitor():
     for filename in sorted(
-        os.listdir("src/db/월별데이터/월별방문자수"),
+        os.listdir("data/월별데이터/월별방문자수"),
         key=lambda x: int(x.split("_")[2].replace("월", "")),
     ):
-        file_path = os.path.join("src/db/월별데이터/월별방문자수", filename)
+        file_path = os.path.join("data/월별데이터/월별방문자수", filename)
         file_path = file_path.replace("\\", "/")
 
         # 파일명에서 지역, 기초지자체명, year, month를 추출
@@ -54,10 +54,10 @@ def insert_visitor():
 
 def insert_expenditure():
     for filename in sorted(
-        os.listdir("src/db/월별데이터/월별지역별지출"),
+        os.listdir("data/월별데이터/월별지역별지출"),
         key=lambda x: int(x.split("_")[2].replace("월", "")),
     ):
-        file_path = os.path.join("src/db/월별데이터/월별지역별지출", filename)
+        file_path = os.path.join("data/월별데이터/월별지역별지출", filename)
         file_path = file_path.replace("\\", "/")
 
         # 파일명에서 year, month, 지역, 기초지자체명을 추출.
@@ -79,10 +79,10 @@ def insert_expenditure():
 
 def insert_search():
     for filename in sorted(
-        os.listdir("src/db/월별데이터/월별네비게이션검색건수"),
+        os.listdir("data/월별데이터/월별네비게이션검색건수"),
         key=lambda x: int(x.split("_")[2].replace("월", "")),
     ):
-        file_path = os.path.join("src/db/월별데이터/월별네비게이션검색건수", filename)
+        file_path = os.path.join("data/월별데이터/월별네비게이션검색건수", filename)
         file_path = file_path.replace("\\", "/")
 
         # 파일명에서 지역, 기초지자체명, year, month를 추출
@@ -108,10 +108,10 @@ def insert_search():
 
 def insert_distance():
     for filename in sorted(
-        os.listdir("src/db/월별데이터/거리"),
+        os.listdir("data/월별데이터/거리"),
         key=lambda x: int(x[:-4].split("_")[4]),
     ):
-        file_path = os.path.join("src/db/월별데이터/거리", filename)
+        file_path = os.path.join("data/월별데이터/거리", filename)
         file_path = file_path.replace("\\", "/")
 
         # 파일명에서 Region, Local_government, year, month를 추출
