@@ -1,4 +1,4 @@
-# 🖥️ 국내 주요 관광지 대비 특이 지역 선정 및 분석
+# 🖥️ 국내 주요 관광지 대비 특이 지역 선정 및 분석 🖥️
 
 - 최근 국내 여행의 수요가 증가하여 기존 국내 여행 수요 지역에 대한 변화가 존재 했을 것이라는 기대와 달리 데이터 분석 결과 기존의 인기 관광 지역의 언급량 변화가 없음을 확인 후 그렇다면 일반적인 관광지역과 달리 특이성을 갖는 지역에 대해 분석
 
@@ -54,9 +54,9 @@ matplotlib.pyplot : 3.5.0
     
 - 예측모델을 통한 지역 예측
 
-<img width="500" height="500" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/a5ba5f0e-573b-435c-bbc6-12cd555cd7b9">
+<img width="500" height="550" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/a5ba5f0e-573b-435c-bbc6-12cd555cd7b9">
 
-<img width="500" height="500" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/628868b2-5a1d-4c51-a752-5f03c63de2e9">
+<img width="500" height="550" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/628868b2-5a1d-4c51-a752-5f03c63de2e9">
 
 - K-means 클러스터링 결과
 
