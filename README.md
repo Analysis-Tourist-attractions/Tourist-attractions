@@ -60,9 +60,9 @@ matplotlib.pyplot : 3.5.0
     
 - 예측모델을 통한 지역 예측
 
-<img width="500" height="550" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/a5ba5f0e-573b-435c-bbc6-12cd555cd7b9">
+<img width="400" height="500" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/a5ba5f0e-573b-435c-bbc6-12cd555cd7b9">
 
-<img width="500" height="550" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/628868b2-5a1d-4c51-a752-5f03c63de2e9">
+<img width="400" height="500" alt="image" src="https://github.com/Analysis-Tourist-attractions/Tourist-attractions/assets/121608383/628868b2-5a1d-4c51-a752-5f03c63de2e9">
 
 - K-means 클러스터링 결과
 
